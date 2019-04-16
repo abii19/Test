@@ -1,0 +1,60 @@
+body {
+    /*background-color: #f0f0f0;*/
+    /*font: 1em/100% verdana, arial, helvetica, sans-serif;*/
+ }
+
+	.wrapper, .filterHead {
+	  display: flex;
+
+	}
+
+	#categories, #brand {
+	    /*max-width: 20em;*/
+	    height: 200px;
+	    margin: auto;
+	    border: 0.062em solid #999;
+	    background-color: #fff;
+	    overflow: auto;
+	    /*direction: rtl;*/
+	}
+
+	#minimum_range, #maximum_range {
+		/*width : 100%;*/
+		font-size: 13px;
+	}
+	
+	.card-img-top {
+		width: 250px;
+		height: 200px;
+	}
+
+	#cartitem {
+		margin-right: 50px;
+		margin-top: 30px;
+
+		/*width: 550px;
+		height: 250px;*/
+	}
+
+
+/*----Scrollbar----*/
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+
+  }
